@@ -40,3 +40,35 @@ Dynamic movie detection system
 ## Screenshot
 
 ![Sentiment Analyzer Screenshot](images/sentiment-analyzer.png)
+Weather Forecast
+Description
+
+The Weather Forecast project was an interactive in-class assignment focused on displaying weather information through a simple web interface. The application retrieves and presents weather-related data in a clear format for users to read and interact with.
+
+Over time, I expanded on the original assignment by redesigning the interface with custom CSS to improve readability, layout structure, and overall visual presentation.
+
+Technologies Used
+JavaScript
+HTML
+CSS
+Weather API integration
+Challenge
+
+One challenge during development was organizing large amounts of weather information in a way that remained easy to understand for users. The original layout displayed the data, but it lacked visual structure and readability.
+
+How I Solved the Challenge
+
+To improve the user experience, I redesigned the page using custom CSS styling. I adjusted spacing, typography, alignment, and color contrast so that weather data such as temperature, conditions, and forecasts could be viewed more clearly.
+
+I also reorganized the interface layout to create a cleaner structure that separated important information into more readable sections. This made the application easier to navigate and visually improved the overall presentation compared to the original in-class version.
+
+Features
+Weather data display
+Forecast information
+Improved custom UI styling
+Responsive page layout
+Enhanced readability and organization
+
+<img width="1257" height="1255" alt="image" src="https://github.com/user-attachments/assets/cef03fff-efec-4b54-9247-3a3528edcd33" />
+
+![Weather Forecast Screenshot](images/weather-forecast.png)
