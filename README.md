@@ -148,3 +148,41 @@ Dynamic gameplay feedback
 ![GameInClass Screenshot](images/gameinclass.png)
 
 
+
+Voting Rights Awareness Project
+Description
+
+The Voting Rights Awareness Project is an interactive educational website designed to help first-time voters better understand the voting process in the United States. The project focuses on common challenges young voters face, including confusion about voter registration, identification requirements, election deadlines, and voting rights.
+
+The application presents information in a simplified and accessible format while also including interactive quiz elements that test users on basic voting knowledge and voter rights. The goal of the project was to make civic information less intimidating and encourage greater confidence and participation among younger voters.
+
+Technologies Used
+HTML
+CSS
+JavaScript
+Challenge
+
+One of the biggest challenges during development was presenting important political and civic information in a way that felt approachable and easy to understand for younger audiences. Voting procedures can often appear complicated, especially because laws and requirements vary between states.
+
+Another challenge was balancing educational content with interactivity so the project would remain engaging rather than feeling like a static information page.
+
+How I Solved the Challenge
+
+To address these issues, I designed the project around clarity and accessibility. I simplified large amounts of information into smaller readable sections and created interactive quiz features that allowed users to actively test their understanding of voting rights and election procedures.
+
+I also used custom CSS styling and structured layouts to make the interface visually organized and easier to navigate. Interactive elements such as quizzes and feedback responses helped make the educational content more engaging for first-time voters.
+
+The project focused heavily on user experience and accessibility so users could learn important information without feeling overwhelmed.
+
+Features
+Interactive voting rights quizzes
+Educational voter information
+Beginner-friendly explanations
+Responsive web layout
+Custom CSS styling
+Interactive user feedback
+Accessible information design
+
+<img width="2554" height="1338" alt="Screenshot 2026-05-10 213252" src="https://github.com/user-attachments/assets/58e6bd4d-38db-4b8b-9560-168a58b807f1" />
+![Voting Rights Project Screenshot](images/voting-rights-project.png)
+
