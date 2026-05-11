@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f4f4f9, #d0d4f7);
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
+  text-shadow: 2px 2px #aaa;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.dice {
+  width: 220px;
+  height: 220px;
+  border-radius: 20%;
+  background: linear-gradient(145deg, #ff8a00, #e52e71);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3),
+              inset -3px -3px 10px rgba(255,255,255,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s, background 0.5s;
+}
+
+.dice.animate {
+  transform: rotate(10deg) scale(1.05);
+}
+
+#result {
+  font-weight: bold;
+  font-size: clamp(30px, 8vw, 60px);
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  text-align: center;
+  line-height: 1;
+}
+
+#message {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}

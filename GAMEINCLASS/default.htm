@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Number Dice Game</title>
+</head>
+<body>
+  <h1>🎲 Number Dice Game 🎲</h1>
+
+  <div>
+    <label for="min">Minimum:</label>
+    <input type="number" id="min" value="1">
+    <label for="max">Maximum:</label>
+    <input type="number" id="max" value="100">
+  </div>
+
+  <div>
+    <label for="target">Target Number:</label>
+    <input type="number" id="target" placeholder="Enter your guess">
+    <button id="rollDice">Roll Dice!</button>
+  </div>
+
+  <div class="container">
+    <div class="dice">
+      <p id="result">?</p>
+    </div>
+  </div>
+
+  <p id="message"></p>
+  <p>Score: <span id="score">0</span></p>
+
+  <script src="RandomNumber.js"></script>
+</body>
+</html>
