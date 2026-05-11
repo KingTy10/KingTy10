@@ -1,0 +1,78 @@
+<!--
+Chicago Temperature Forecast Dashboard
+Author: Tyrone King
+Date: 03/15/2026
+
+Interactive weather visualization using Chart.js
+and the National Weather Service API.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Weather Forecast Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>🌤 Weather Forecast Dashboard</h1>
+        <p class="subtitle">
+            Interactive temperature visualization powered by the National Weather Service API
+        </p>
+    </header>
+
+
+    <div class="controlPanel">
+        <label>Select a City</label>
+        <select id="citySelect">
+            <option value="41.8781,-87.6298">Chicago</option>
+            <option value="34.0522,-118.2437">Los Angeles</option>
+            <option value="40.7128,-74.0060">New York</option>
+            <option value="29.7604,-95.3698">Houston</option>
+        </select>
+    </div>
+
+
+    <div class="chartCard">
+        <canvas id="weatherChart"></canvas>
+    </div>
+
+
+    <div class="legendCard">
+
+        <h2>Temperature Key</h2>
+
+        <div class="legendRow">
+            <span class="legendBox coolTemperature"></span>
+            <p>Below 50°F</p>
+        </div>
+
+        <div class="legendRow">
+            <span class="legendBox mediumTemperature"></span>
+            <p>50°F – 75°F</p>
+        </div>
+
+        <div class="legendRow">
+            <span class="legendBox warmTemperature"></span>
+            <p>Above 75°F</p>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

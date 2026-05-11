@@ -1,0 +1,140 @@
+/*
+Weather Dashboard Styling
+Author: Tyrone King
+Date: 03/15/2026
+*/
+
+/* Page background */
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    background: linear-gradient(135deg,#2b5876,#4e4376);
+
+    margin:0;
+    padding:0;
+
+    color:white;
+}
+
+
+/* Main container */
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:40px;
+}
+
+
+/* Header */
+
+header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+h1{
+    font-size:2.5rem;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    opacity:0.8;
+}
+
+
+/* Dropdown section */
+
+.controlPanel{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+select{
+    padding:10px 15px;
+
+    border-radius:8px;
+    border:none;
+
+    font-size:16px;
+
+    margin-top:10px;
+
+    cursor:pointer;
+
+    transition:transform .2s;
+}
+
+select:hover{
+    transform:scale(1.05);
+}
+
+
+/* Chart card */
+
+.chartCard{
+
+    background:rgba(255,255,255,0.1);
+
+    backdrop-filter:blur(10px);
+
+    border-radius:15px;
+
+    padding:30px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+    margin-bottom:30px;
+}
+
+
+/* Legend */
+
+.legendCard{
+
+    background:rgba(255,255,255,0.1);
+
+    backdrop-filter:blur(10px);
+
+    border-radius:15px;
+
+    padding:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+}
+
+.legendRow{
+
+    display:flex;
+
+    align-items:center;
+
+    margin:10px 0;
+}
+
+.legendBox{
+
+    width:20px;
+    height:20px;
+
+    margin-right:10px;
+
+    border-radius:5px;
+}
+
+
+/* Temperature colors */
+
+.coolTemperature{
+    background:rgba(54,162,235,0.8);
+}
+
+.mediumTemperature{
+    background:rgba(75,192,192,0.8);
+}
+
+.warmTemperature{
+    background:rgba(255,99,132,0.8);
+}
