@@ -109,3 +109,42 @@ Themed UI design
 Responsive layout improvements
 <img width="1248" height="1232" alt="Screenshot 2026-05-10 220002" src="https://github.com/user-attachments/assets/61d99a1d-68e1-4b05-8bcb-919c509cd39d" />
 ![Firefly Catcher Screenshot](images/firefly-catcher.png) 
+
+GameInClass
+Description
+
+GameInClass is an interactive browser-based dice game that was originally created as an in-class programming assignment. I expanded on the original concept by redesigning the interface with custom CSS and improving the overall presentation to make the game feel more polished and visually engaging.
+
+The game revolves around guessing and rolling randomized numbers through a dice-based system while tracking score progression during gameplay.
+
+Technologies Used
+JavaScript
+HTML
+CSS
+Challenge
+
+One of the main challenges was taking a simple classroom exercise and making it visually distinct while still keeping the gameplay easy to understand. The original project functioned correctly, but it lacked visual identity and interactive feedback.
+
+Another challenge was making the random dice mechanics feel more satisfying for users through better UI presentation and clearer game responses.
+
+How I Solved the Challenge
+
+I redesigned the user interface using custom CSS styling to create a cleaner and more game-oriented appearance. I added gradient effects, shadows, spacing improvements, and a centered layout to make the gameplay area stand out more clearly.
+
+I also improved the game flow by making score updates and roll outcomes easier to follow visually. The large central dice display became the focal point of the interface to help reinforce the randomness and excitement of each roll.
+
+The result was a more polished browser game experience compared to the original in-class assignment.
+
+Features
+Randomized dice rolling system
+Interactive number guessing
+Score tracking
+Custom CSS styling
+Gradient and shadow effects
+Improved UI layout
+Dynamic gameplay feedback
+
+<img width="1257" height="978" alt="image" src="https://github.com/user-attachments/assets/2bd67e44-0318-4013-a953-9acfe38d318f" />
+![GameInClass Screenshot](images/gameinclass.png)
+
+
