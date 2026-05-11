@@ -72,3 +72,40 @@ Enhanced readability and organization
 <img width="1257" height="1255" alt="image" src="https://github.com/user-attachments/assets/cef03fff-efec-4b54-9247-3a3528edcd33" />
 
 ![Weather Forecast Screenshot](images/weather-forecast.png)
+
+Firefly Catcher (DuckDebuggerInClass)
+Description
+
+Firefly Catcher was originally based on an in-class debugging assignment called “DuckDebuggerInClass.” I expanded the original concept into a fully themed interactive guessing game where players attempt to guess how many fireflies are trapped inside a glowing jar.
+
+The project combines JavaScript game logic with heavily customized CSS styling to create a more immersive visual experience. The final result transformed a simple classroom exercise into a polished interactive mini-game with atmospheric visuals and responsive feedback.
+
+Technologies Used
+JavaScript
+HTML
+CSS
+Interactive DOM manipulation
+Challenge
+
+One challenge during development was turning a basic debugging assignment into a visually engaging experience while still maintaining clean functionality. The original project focused mostly on logic, so I wanted to improve both the gameplay presentation and the user interaction.
+
+Another challenge was balancing the visual effects without making the interface difficult to read.
+
+How I Solved the Challenge
+
+I redesigned the interface using custom CSS effects, including glowing visual elements, layered transparency, and a nighttime forest background to match the firefly-catching theme. I also added dynamic feedback messages to guide the player during gameplay and improve interactivity.
+
+To make the game feel more polished, I used color contrast and lighting effects around the jar and interface container to create depth and atmosphere while still keeping the text readable.
+
+On the programming side, I improved the original guessing logic by validating user input and providing clearer responses depending on whether the guess was too high, too low, or correct.
+
+Features
+Interactive number guessing game
+Custom glowing visual effects
+Atmospheric forest background
+Dynamic user feedback
+Input validation
+Themed UI design
+Responsive layout improvements
+<img width="1248" height="1232" alt="Screenshot 2026-05-10 220002" src="https://github.com/user-attachments/assets/61d99a1d-68e1-4b05-8bcb-919c509cd39d" />
+![Firefly Catcher Screenshot](images/firefly-catcher.png) 
